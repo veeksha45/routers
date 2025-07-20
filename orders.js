@@ -2,11 +2,11 @@ const express=require("express");
 
 const router=express.Router();
 
-router.get('/orders',(req,res){
+router.get('/',(req,res){
     res.send('Order List');
 
 });
-router.post('/orders',(req,res){
+router.post('/',(req,res){
     res.send('Order Created')
 
 });
